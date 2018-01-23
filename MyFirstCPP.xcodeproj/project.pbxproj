@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		ACF365D22017C072004FD921 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACF365D12017C072004FD921 /* main.cpp */; };
+		ACF365DA2017C604004FD921 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACF365D92017C604004FD921 /* Runner.cpp */; };
+		ACF365DD2017C6D8004FD921 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACF365DB2017C6D8004FD921 /* Controller.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		ACF365CE2017C072004FD921 /* MyFirstCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF365D12017C072004FD921 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ACF365D92017C604004FD921 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
+		ACF365DB2017C6D8004FD921 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		ACF365DC2017C6D8004FD921 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +62,20 @@
 		ACF365D02017C072004FD921 /* MyFirstCPP */ = {
 			isa = PBXGroup;
 			children = (
+				ACF365D82017C57F004FD921 /* Controller */,
 				ACF365D12017C072004FD921 /* main.cpp */,
 			);
 			path = MyFirstCPP;
+			sourceTree = "<group>";
+		};
+		ACF365D82017C57F004FD921 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACF365D92017C604004FD921 /* Runner.cpp */,
+				ACF365DB2017C6D8004FD921 /* Controller.cpp */,
+				ACF365DC2017C6D8004FD921 /* Controller.hpp */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +136,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF365D22017C072004FD921 /* main.cpp in Sources */,
+				ACF365DD2017C6D8004FD921 /* Controller.cpp in Sources */,
+				ACF365DA2017C604004FD921 /* Runner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
