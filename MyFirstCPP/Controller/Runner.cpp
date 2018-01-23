@@ -8,8 +8,13 @@
 
 //#include <iostream> if you want printing
 
-int oldMain()
+#include "Controller.hpp"
+int main()
 {
+    Controller app; //declares an object and instantiates it at once
+    app.start();
     
+    Controller * appPointer = new Controller();
+    appPointer->start();  //(*appPoinr).start(); is exactly the same but the longer way
     return 0;
 }

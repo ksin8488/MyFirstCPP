@@ -10,7 +10,7 @@
 
 using namespace std;    //standard library that removes the need for std::
 
-int main() {
+int oldMain() {
     // insert code here...
     cout << "Hello, World!" << endl;
     string input;

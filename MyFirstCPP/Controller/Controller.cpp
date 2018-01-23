@@ -7,3 +7,15 @@
 //
 
 #include "Controller.hpp"
+
+using namespace std;
+
+Controller :: Controller()  //don't need to have spaces between things
+{
+    cout << "look I am a constructor :D" << endl;
+}
+
+void Controller :: start()
+{
+    cout << "I am in the start method" << endl;
+}
